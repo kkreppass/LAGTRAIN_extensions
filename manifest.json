@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Google 번역기",
+    "description": "Google 번역기",
+    "version": "0.1",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+          "matches": [
+            "*://*.youtube.com/*"
+          ],
+          "run_at": "document_start",
+          "all_frames": true,
+          "js": [
+            "popup.js"
+          ]
+        }
+    ]
+
+    
+}
