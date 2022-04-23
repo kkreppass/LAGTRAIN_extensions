@@ -2,17 +2,18 @@
     "manifest_version": 2,
     "name": "Google 번역기",
     "description": "Google 번역기",
-    "version": "0.1",
+    "version": "0.2",
     "permissions": ["activeTab"],
     "content_scripts": [
         {
           "matches": [
-            "*://*.youtube.com/*"
+            "<all_urls>"
           ],
           "run_at": "document_start",
           "all_frames": true,
           "js": [
-            "popup.js"
+            "popup.js",
+            "popup1.js"
           ]
         }
     ]
