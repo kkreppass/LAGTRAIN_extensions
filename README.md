@@ -1,4 +1,4 @@
-#LAGTRAIN_extensions
+<h1>LAGTRAIN_extensions</h1>
 <h2>소개</h2>
 유튜브에서 오직 "라그트레인만" 볼 수 있게 만들어 주는 확장프로그램입니다.<br>
 친구의 컴퓨터에 깔아서 친구가 라그트레인의 팬이 되게 해주세요! :)<br>
