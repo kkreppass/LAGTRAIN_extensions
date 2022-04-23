@@ -1,2 +1,2 @@
-function change () {document.getElementsByTagName("input")[0].setAttribute("placeholder", "유튜브 중딩한테 다털렸쥬?ㅋㅋㅋ")}
+function change () {document.getElementsByTagName("input")[0].setAttribute("placeholder", "레그트레인 사랑해주세요!")}
 setInterval(change, 500);
